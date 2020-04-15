@@ -1,10 +1,11 @@
 # Disable Touchscreen
 Add-Type -AssemblyName System.Windows.Forms
 
+# Create the notification dinger 
 $global:balmsg = New-Object System.Windows.Forms.NotifyIcon
 $path = (Get-Process -id $pid).Path
 $balmsg.Icon = [System.Drawing.Icon]::ExtractAssociatedIcon($path)
-$balmsg.BalloonTipIcon = [System.Windows.Forms.ToolTipIcon]::Warning
+$balmsg.BalloonTipIcon = [System.Windows.Forms.ToolTipIcon]::Info
 
 
 $disable = $Args[0]
