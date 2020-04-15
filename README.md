@@ -3,7 +3,7 @@
 
 I have a Lenovo Thinkpad X1 Yoga 4th gen. It's a 2-in-1 device that comes with a Wacom pen.
 
-I often like to draw or write using the pen, however the touchscreen remains active until the pen is within a few centimeters of the screen. This is a problem as my hand will easily accidentally tap the 14-inch screen. 
+I often like to draw or write using the pen, however the touchscreen remains active until the pen is within a few centimeters of the screen. This is with the "disable touch when using pen" setting enabled. This is a problem as my hand will easily accidentally tap the 14-inch screen. 
 
 An easy way to avoid this problem is to just disable the touch screen entirely as the pen will work without it, however doing this requires a trip to the device manager which can be somewhat of a pain. 
 
