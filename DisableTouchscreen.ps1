@@ -5,7 +5,6 @@ Add-Type -AssemblyName System.Windows.Forms
 $global:balmsg = New-Object System.Windows.Forms.NotifyIcon
 $path = (Get-Process -id $pid).Path
 $balmsg.Icon = [System.Drawing.Icon]::ExtractAssociatedIcon($path)
-$balmsg.BalloonTipIcon = [System.Windows.Forms.ToolTipIcon]::Info
 
 
 $disable = $Args[0]
@@ -27,9 +26,11 @@ if (-Not $disable) {
 if ($disable -eq '1') {
 	$device | Disable-PnpDevice -Confirm:$false
 	$tip = "Disabled Touch"
+	$balmsg.BalloonTipIcon = [System.Windows.Forms.ToolTipIcon]::Warning
 } else {
 	$device | Enable-PnpDevice -Confirm:$false
 	$tip = "Enabled Touch"
+	$balmsg.BalloonTipIcon = [System.Windows.Forms.ToolTipIcon]::Info
 }
 
 #Get and display status message
