@@ -1,5 +1,5 @@
 # QuickTouchDisabler
- Quickly enable or disables the touchscreen on Windows 10 touchscreen devices.
+ Quickly enable or disable the touchscreen on Windows 10 touchscreen devices.
 
 I have a Lenovo Thinkpad X1 Yoga 4th gen. It's a 2-in-1 device that comes with a Wacom pen.
 
