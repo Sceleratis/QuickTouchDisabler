@@ -5,7 +5,7 @@ I have a Lenovo Thinkpad X1 Yoga 4th gen. It's a 2-in-1 device that comes with a
 
 I often like to draw or write using the pen, however the touchscreen remains active until the pen is within a few centimeters of the screen. This is with the "disable touch when using pen" setting enabled. This is a problem as my hand will easily accidentally tap the 14-inch screen before my pen tip is close enough for touches to be ignored.
 
-An easy way to avoid this problem is to just disable the touch screen entirely as the pen will work without it, however doing this requires a trip to the device manager which can be somewhat of a pain. 
+An easy way to avoid this problem is to just disable the touch screen entirely as the pen will work without it, however doing this requires a trip to the device manager which can be somewhat of a pain and as far as I can tell Windows doesn't have an easier way to do this. 
 
 To solve this issue, I have this little script which will toggle the touch screen quickly without having to open Device Manager. I have the .bat file bound to the second button on my thinkpad's pen so I can quickly and easily toggle the touchscreen. 
 
